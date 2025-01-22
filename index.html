@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <title> PROFILE </title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times,  sans-serif;
+            background-color: white;
+            margin: 20;
+            padding: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background-color: whitesmoke;
+            border-radius: 36px;
+            box-shadow: 0 9px 8px rgb(red, green, blue);
+            padding: 20px;
+            width: 300px;
+        }
+
+        .profile-img {
+            width: 125px;
+            height: 134px;
+            border-radius: 100%;
+            margin-bottom: 115px;
+        }
+
+        .profile-title {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 0px;
+            font-size: 16px;
+            text-align: center;
+            background-color: yellow;
+            color: red;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.5s, transform 0.6s;
+        }
+
+        .button:hover {
+            background-color: white;
+            transform: translateY(6px);
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            margin: 0 20px;
+            font-size: 18px;
+            color: black;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            color: red;
+        }
+    </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <img src="Foto.jpg" alt="profile picture" class="profile-img">
+            <div class="profile-name"> Muhammad Najmu Fachruddin, S.Kom</div>
+            <div class="profile-title"> Web Developer</div>
+
+            <!-- Tombol menggunakan anchor tag <a> -->
+                <a href="https://www.linkedin.com" class="button"> Kunjungi linkedin</a>
+
+                <div class="social-links">
+                    <a href="https://www.facebook.com/muhamad.najmu" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                    <a href="https://github.com/muhammadnajmu" target="_blank">Github</a>
+                    <a href="https://youtube.com/@muhammadnajmufachruddin?si=_GKanYgcuW1MKyFo"target="_blank">Youtube</a>
+                </div>
+        </div>
+    </body>
+</html>
